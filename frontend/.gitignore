@@ -15,10 +15,17 @@ dist-ssr
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
-.idea
-.DS_Store
+.ideagit status
+git add .
+git commit -m "Initial frontend setup"
+
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+node_modules
+dist
+.env
+.env.local
+.DS_Store
